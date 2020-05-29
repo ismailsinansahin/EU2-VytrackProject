@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Vytrack Automation" verbose="1">
+
+    <test name="Vytrack Runner Test">
+
+        <packages>
+            <package name="com.cybertek.tests.CalendarEventsTests"></package>
+            <package name="com.cybertek.tests.LoginTests"></package>
+
+        </packages>
+
+        <classes>
+            <class name="com.cybertek.tests.CalendarEventsTests.CalendarEventsTests"></class>
+            <class name="com.cybertek.tests.LoginTests.PositiveLoginTest"></class>
+        </classes>
+
+<!--        <classes>-->
+<!--            <class name="com.cybertek.tests.CalendarEventsTests.CalendarEventsTests">-->
+<!--                <methods>-->
+<!--                    <include name="verify1PageSubtitle"></include>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+
+<!--        <classes>-->
+<!--            <class name="com.cybertek.tests.CalendarEventsTests.CalendarEventsTests">-->
+<!--                <methods>-->
+<!--                    <exclude name="verify1PageSubtitle"></exclude>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+
+<!--        <parameter name="env" value="qa1"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="com.cybertek.tests.CalendarEventsTests.CalendarEventsTests"></class>-->
+<!--        </classes>-->
+
+<!--        <parameter name="env" value="qa2"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="com.cybertek.tests.CalendarEventsTests.CalendarEventsTests"></class>-->
+<!--        </classes>-->
+
+<!--        <parameter name="env" value="qa3"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="com.cybertek.tests.CalendarEventsTests.CalendarEventsTests"></class>-->
+<!--        </classes>-->
+
+    </test>
+
+</suite>
